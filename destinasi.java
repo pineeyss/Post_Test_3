@@ -11,7 +11,6 @@ public class destinasi {
         this.tiketAnak = tiketAnak;
     }
 
-    // Getter & Setter (Encapsulation)
     public String getNamaDestinasi() {
         return namaDestinasi;
     }
