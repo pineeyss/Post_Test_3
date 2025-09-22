@@ -11,11 +11,14 @@ public class service {
     private Scanner scanner = new Scanner(System.in);
 
     public service() {
-        // Data bawaan dengan subclass
-        daftarDestinasi.add(new wisataBudaya("Candi Prambanan", 50000, 25000, "Upacara Keagamaan"));
-        daftarDestinasi.add(new wisataBudaya("Keraton Yogyakarta", 15000, 7000, "Pertunjukan Tari"));
-        daftarDestinasi.add(new wisataAlam("Pantai Parangtritis", 10000, 5000, "Jeep & Paralayang"));
-        daftarDestinasi.add(new wisataAlam("Gunung Merapi (Lava Tour)", 150000, 100000, "Jeep Adventure"));
+    daftarDestinasi.add(new wisataBudaya("Candi Prambanan", 50000, 25000, "Upacara Keagamaan"));
+    daftarDestinasi.add(new wisataBudaya("Keraton Yogyakarta", 15000, 7000, "Pertunjukan Tari"));
+    daftarDestinasi.add(new wisataBudaya("Museum Sonobudoyo", 10000, 5000, "Pameran Sejarah & Wayang"));
+    daftarDestinasi.add(new wisataBudaya("Benteng Vredeburg", 3000, 2000, "Pameran Kolonial"));
+    daftarDestinasi.add(new wisataAlam("Pantai Parangtritis", 10000, 5000, "Jeep & Paralayang"));
+    daftarDestinasi.add(new wisataAlam("Gunung Merapi (Lava Tour)", 150000, 100000, "Jeep Adventure"));
+    daftarDestinasi.add(new wisataAlam("Goa Pindul", 40000, 30000, "Cave Tubing"));
+    daftarDestinasi.add(new wisataAlam("Kaliurang", 10000, 5000, "Camping & Hiking"));
     }
 
     public void tampilkanDaftar() {
